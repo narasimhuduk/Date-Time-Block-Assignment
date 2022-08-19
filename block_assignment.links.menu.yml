@@ -1,0 +1,6 @@
+block_assignment.admin_settings_form:  
+  title: 'Date Time Block Config Variables'  
+  route_name: block_assignment.admin_settings_form  
+  description: 'Date Time Block Settings'  
+  parent: system.admin_config_system  
+  weight: 99

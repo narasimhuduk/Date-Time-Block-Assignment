@@ -1,0 +1,9 @@
+block_assignment.admin_settings_form:  
+  path: '/admin/config/block_assignment/config-variables'  
+  defaults:  
+    _form: '\Drupal\block_assignment\Form\BlockConfigVariablesForm'  
+    _title: 'Date Time Block Settings'  
+  requirements:
+    _role: 'administrator'    
+  options:  
+    _admin_route: TRUE

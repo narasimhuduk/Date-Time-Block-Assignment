@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Provides functionality to display Date and Time.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function block_assignment_theme() {
+  return [
+    'date_time_block' => [
+      'variables' => [        
+        'data' => [],
+      ],
+      'template' => 'block--date-time',
+    ],
+  ];
+}

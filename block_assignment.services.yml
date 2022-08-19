@@ -1,0 +1,4 @@
+services:
+  block_assignment.date_time_service:
+    class: Drupal\block_assignment\Services\DateTimeService
+    arguments: ['@config.factory']
